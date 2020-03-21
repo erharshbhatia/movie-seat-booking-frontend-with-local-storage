@@ -60,3 +60,4 @@ movie.addEventListener('change', (event)=>{
     setMovieData(event.target.value, event.target.selectedIndex);
     updateDetails();
 })
+updateDetails();
